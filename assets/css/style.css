@@ -224,3 +224,38 @@ footer {
 
 /* ------------------------ PERSONAL INFO ---------------------------- */
 
+.personal-info-item {
+    margin-bottom: 20px;
+    /* display: block is so that they take up an entire space horizontally*/
+    display: block;
+    clear: both; 
+}
+
+.personal-info-item .key, 
+.personal-info-item .value {
+    padding-right: 8px;
+    /* inline block puts 2 divs side by side */
+    display: inline-block;
+}
+
+.personal-info-item .key p, 
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    /* So that it hugs the top of the div as much as possible */
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
